@@ -2,7 +2,7 @@ import React from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import Resume from './resume.pdf';
+import Resume from './parag.pdf';
 
 const navbar = () => {
   return (
