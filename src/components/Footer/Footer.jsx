@@ -1,8 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
 const Footer = () => {
@@ -12,7 +10,6 @@ const Footer = () => {
       <div className="f-content">
         <span>pdubey479@gmail.com</span>
         <div className="f-icons">
-          <Facebook color="white" size={"3rem"} />
           <Gitub color="white" size={"3rem"} />
         </div>
       </div>
