@@ -71,7 +71,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "As a UI/UX Designer with extensive experience in web design and development, I specialize in creating intuitive and engaging user interfaces. My work is driven by a passion for delivering high-quality user experiences that meet client needs and exceed expectations. My portfolio highlights a variety of projects that reflect my expertise in crafting visually appealing and user-friendly designs. Please take a moment to view my portfolio to see the full scope of my work and the impact of my design solutions."
+              "As a UI/UX Designer with extensive experience in web design and development, I specialize in creating intuitive and engaging user interfaces."
             }
             color="rgba(252, 166, 31, 0.45)"
           />
