@@ -27,8 +27,7 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
+        As a seasoned UI/UX Designer, I specialize in creating engaging and user-friendly digital experiences.           <br />
 
         </spane>
         <a href={Resume} download>
@@ -72,7 +71,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "As a UI/UX Designer with extensive experience in web design and development, I specialize in creating intuitive and engaging user interfaces. My work is driven by a passion for delivering high-quality user experiences that meet client needs and exceed expectations. My portfolio highlights a variety of projects that reflect my expertise in crafting visually appealing and user-friendly designs. Please take a moment to view my portfolio to see the full scope of my work and the impact of my design solutions."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

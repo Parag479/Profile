@@ -30,8 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Parag Dubey</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+          With a high level of experience in web designing and development, I am dedicated to producing quality work. My portfolio showcases a range of projects that demonstrate my ability to create visually appealing and highly functional websites. Explore my portfolio to see examples of my work and the diverse skill set I bring to every project.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
