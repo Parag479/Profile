@@ -25,8 +25,9 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-          Expert in UI/UX design, web development, <br/>
-          and branding. Delivered high-quality work for 
+          Expert in UI/UX design, web development,
+          and branding.
+          <br/> Delivered high-quality work for 
           numerous brands and clients.
 
 
