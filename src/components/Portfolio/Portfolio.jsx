@@ -5,7 +5,7 @@ import "swiper/css";
 import Farmitra from "../../img/Farmitra.png";
 import Gaurs from "../../img/logo-black.png";
 import Tender from "../../img/tender.png";
-import gratex from "../../img/gratex.png";
+import gratex from "../../img/gratex.jpg";
 import pioneer from "../../img/logo.png";
 
 import { themeContext } from "../../Context";
