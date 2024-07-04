@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/Profile/static/css/main.cd7501d7.css",
-    "main.js": "/Profile/static/js/main.3f5e7259.js",
+    "main.js": "/Profile/static/js/main.48fcc532.js",
     "static/media/ecommerce.png": "/Profile/static/media/ecommerce.522da76635d52117102b.png",
-    "static/media/sidebar.png": "/Profile/static/media/sidebar.b2225070b8adae68d063.png",
     "static/media/musicapp.png": "/Profile/static/media/musicapp.f1c301f91904ef5f9249.png",
     "static/media/boy.png": "/Profile/static/media/boy.5ca4b670a32b71681d2c.png",
     "static/media/parag.pdf": "/Profile/static/media/parag.56466ab10673cddd9e53.pdf",
@@ -16,12 +15,13 @@
     "static/media/crown.png": "/Profile/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/Vector2.png": "/Profile/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/Profile/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/Farmitra.png": "/Profile/static/media/Farmitra.eaf7434ee08a99eff503.png",
     "index.html": "/Profile/index.html",
     "main.cd7501d7.css.map": "/Profile/static/css/main.cd7501d7.css.map",
-    "main.3f5e7259.js.map": "/Profile/static/js/main.3f5e7259.js.map"
+    "main.48fcc532.js.map": "/Profile/static/js/main.48fcc532.js.map"
   },
   "entrypoints": [
     "static/css/main.cd7501d7.css",
-    "static/js/main.3f5e7259.js"
+    "static/js/main.48fcc532.js"
   ]
 }
