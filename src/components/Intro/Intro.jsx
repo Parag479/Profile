@@ -45,7 +45,13 @@ const Intro = () => {
           rel="noopener noreferrer"
         >
           <img src={Github} alt="" /> </a>
-          <img src={LinkedIn} alt="" />
+
+          <a className="App-link"
+          href="https://www.linkedin.com/in/parag-dubey-70bb3112a"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={LinkedIn} alt="" /></a>
         </div>
       </div>
       {/* right image side */}
