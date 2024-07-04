@@ -10,7 +10,12 @@ const Footer = () => {
       <div className="f-content">
         <span>pdubey479@gmail.com</span>
         <div className="f-icons">
-          <Gitub color="white" size={"3rem"} />
+        <a className="App-link"
+          href="https://github.com/Parag479"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Gitub color="white" size={"3rem"} /></a>
         </div>
       </div>
     </div>

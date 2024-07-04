@@ -38,7 +38,13 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
+        
+        <a className="App-link"
+          href="https://github.com/Parag479"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Github} alt="" /> </a>
           <img src={LinkedIn} alt="" />
         </div>
       </div>
