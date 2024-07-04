@@ -26,7 +26,7 @@ const Portfolio = () => {
         className="portfolio-slider"
 
         breakpoints={{
-          640: {
+          320: {
             slidesPerView: 1,
           },
           768: {
