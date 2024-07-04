@@ -24,6 +24,16 @@ const Portfolio = () => {
         slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
+
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          
+        }}
       >
         <SwiperSlide>
         <a className="App-link"
