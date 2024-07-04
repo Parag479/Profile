@@ -34,16 +34,36 @@ const Portfolio = () => {
           <img src={Farmitra} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Gaurs} alt="" />
+        <a className="App-link"
+          href="http://www.gaursonsindia.com/platinum-towers-landing-page/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Gaurs} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Tender} alt="" />
+        <a className="App-link"
+          href="http://www.tenderfreshicecreams.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Tender} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={gratex} alt="" />
+        <a className="App-link"
+          href="https://www.gratex.in/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={gratex} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={pioneer} alt="" />
+        <a className="App-link"
+          href="https://bimetalliclugs.in/pages/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={pioneer} alt="" /></a>
         </SwiperSlide>
       </Swiper>
     </div>
