@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
+import Farmitra from "../../img/Farmitra.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
@@ -24,7 +24,12 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+        <a className="App-link"
+          href="https://play.google.com/store/apps/details?id=com.bagic.farmitra&hl=en_IN"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Farmitra} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
