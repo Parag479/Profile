@@ -3,9 +3,11 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Farmitra from "../../img/Farmitra.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Gaurs from "../../img/logo-black.png";
+import Tender from "../../img/tender.png";
+import gratex from "../../img/gratex.png";
+import pioneer from "../../img/logo.png";
+
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -32,13 +34,16 @@ const Portfolio = () => {
           <img src={Farmitra} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={Gaurs} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={Tender} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={gratex} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={pioneer} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
