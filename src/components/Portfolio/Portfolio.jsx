@@ -5,7 +5,6 @@ import "swiper/css";
 import Farmitra from "../../img/Farmitra.png";
 import Gaurs from "../../img/logo-black.png";
 import Tender from "../../img/tender.png";
-import gratex from "../../img/gratex.png";
 import pioneer from "../../img/logo.png";
 
 import { themeContext } from "../../Context";
@@ -38,9 +37,6 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Tender} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={gratex} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={pioneer} alt="" />
