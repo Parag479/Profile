@@ -20,16 +20,11 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-               slidesPerView={3}
         spaceBetween={30}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[FreeMode, Pagination]}
+        slidesPerView={3}
+        grabCursor={true}
         className="portfolio-slider"
       >
-        
         <SwiperSlide>
         <a className="App-link"
           href="https://play.google.com/store/apps/details?id=com.bagic.farmitra&hl=en_IN"
