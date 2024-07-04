@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Profile/static/css/main.409f167c.css",
-    "main.js": "/Profile/static/js/main.5268ecc4.js",
+    "main.js": "/Profile/static/js/main.d62a9cde.js",
     "static/media/boy.png": "/Profile/static/media/boy.5ca4b670a32b71681d2c.png",
     "static/media/parag.pdf": "/Profile/static/media/parag.56466ab10673cddd9e53.pdf",
     "static/media/glassesimoji.png": "/Profile/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
@@ -12,14 +12,13 @@
     "static/media/crown.png": "/Profile/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/Vector2.png": "/Profile/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/Profile/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
-    "static/media/Farmitra.png": "/Profile/static/media/Farmitra.eaf7434ee08a99eff503.png",
     "static/media/tender.png": "/Profile/static/media/tender.5a11880f7dd93e2246b6.png",
     "index.html": "/Profile/index.html",
     "main.409f167c.css.map": "/Profile/static/css/main.409f167c.css.map",
-    "main.5268ecc4.js.map": "/Profile/static/js/main.5268ecc4.js.map"
+    "main.d62a9cde.js.map": "/Profile/static/js/main.d62a9cde.js.map"
   },
   "entrypoints": [
     "static/css/main.409f167c.css",
-    "static/js/main.5268ecc4.js"
+    "static/js/main.d62a9cde.js"
   ]
 }
