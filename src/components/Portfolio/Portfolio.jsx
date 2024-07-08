@@ -21,17 +21,18 @@ const Portfolio = () => {
       {/* slider */}
       <Swiper
         spaceBetween={30}
-        slidesPerView={3}
+        slidesPerView={1} // Default to 1 slide per view for mobile
         grabCursor={true}
         className="portfolio-slider"
-
         breakpoints={{
           320: {
-            slidesPerView: 1,
+            slidesPerView: 2, // 2 slides per view for screens >= 640px
           },
-        
-          
+          1024: {
+            slidesPerView: 3, // 3 slides per view for screens >= 1024px
+          },
         }}
+  
       >
         <SwiperSlide>
         <a className="App-link"
