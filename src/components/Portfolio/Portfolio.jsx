@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
-import 'swiper/swiper-bundle.css';
 
 import "swiper/css";
 import Farmitra from "../../img/Farmitra.png";
