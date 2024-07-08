@@ -24,6 +24,8 @@ const Portfolio = () => {
         slidesPerView={1} // Default to 1 slide per view for mobile
         grabCursor={true}
         className="portfolio-slider"
+        autoplay={{ delay: 3000, disableOnInteraction: false }} // Autoplay configuration
+        loop={true} // Enable looping
         breakpoints={{
           640: {
             slidesPerView: 2, // 2 slides per view for screens >= 640px
