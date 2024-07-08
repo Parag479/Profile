@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
+import SwiperCore, { Autoplay } from 'swiper';
+
 import { Swiper, SwiperSlide } from "swiper/react"
 
 import "swiper/css";
@@ -10,6 +12,8 @@ import gratex from "../../img/gratex.jpg";
 import pioneer from "../../img/logo.png";
 
 import { themeContext } from "../../Context";
+// Install Swiper modules
+SwiperCore.use([Autoplay]);
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
