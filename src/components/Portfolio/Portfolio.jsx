@@ -20,6 +20,7 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
+        spaceBetween={10}
         slidesPerView={1} // Default to 1 slide per view for mobile
         grabCursor={true}
         className="portfolio-slider"
