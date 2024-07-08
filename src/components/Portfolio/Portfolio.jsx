@@ -25,7 +25,7 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
         breakpoints={{
-          320: {
+          640: {
             slidesPerView: 2, // 2 slides per view for screens >= 640px
           },
           1024: {
