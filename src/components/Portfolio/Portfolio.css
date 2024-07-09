@@ -43,11 +43,5 @@
 
 }
 
-@media (max-width: 768px) {
-  .portfolio img {
-      max-width: 100%; /* Allow image to take full width of the container */
-      width: auto; /* Adjust width based on container */
-      height: auto; /* Maintain aspect ratio */
-  }
-}
+
 
