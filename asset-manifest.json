@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.dd6e4167.css",
-    "main.js": "/Profile/static/js/main.a0a9e113.js",
+    "main.css": "/Profile/static/css/main.61d1a060.css",
+    "main.js": "/Profile/static/js/main.23072e4d.js",
     "static/media/boy.png": "/Profile/static/media/boy.5ca4b670a32b71681d2c.png",
     "static/media/parag.pdf": "/Profile/static/media/parag.56466ab10673cddd9e53.pdf",
     "static/media/glassesimoji.png": "/Profile/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/thumbup.png": "/Profile/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/gmail.png": "/Profile/static/media/gmail.4c62c57aecd810375ba2.png",
     "static/media/humble.png": "/Profile/static/media/humble.c8b32b53675e68978981.png",
     "static/media/heartemoji.png": "/Profile/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
     "static/media/wave.png": "/Profile/static/media/wave.fdfef4069ad90f610990.png",
@@ -14,11 +15,11 @@
     "static/media/glasses.png": "/Profile/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "static/media/tender.png": "/Profile/static/media/tender.5a11880f7dd93e2246b6.png",
     "index.html": "/Profile/index.html",
-    "main.dd6e4167.css.map": "/Profile/static/css/main.dd6e4167.css.map",
-    "main.a0a9e113.js.map": "/Profile/static/js/main.a0a9e113.js.map"
+    "main.61d1a060.css.map": "/Profile/static/css/main.61d1a060.css.map",
+    "main.23072e4d.js.map": "/Profile/static/js/main.23072e4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd6e4167.css",
-    "static/js/main.a0a9e113.js"
+    "static/css/main.61d1a060.css",
+    "static/js/main.23072e4d.js"
   ]
 }
