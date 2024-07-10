@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span><img src={Gmail} alt="" style={{ width: "80%" }} />
+        <span><img src={Gmail} alt="" style={{ width: "50px" }} />
         <a className="App-link"
           href="mailto:pdubey479@gmail.com"
           target="_blank"
