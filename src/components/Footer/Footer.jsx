@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
+import Gmail from "../../img/gmail.png";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
 const Footer = () => {
@@ -8,7 +9,8 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>  <a className="App-link"
+        <span><img src={Gmail} alt="" style={{ width: "80%" }} />
+        <a className="App-link"
           href="mailto:pdubey479@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
