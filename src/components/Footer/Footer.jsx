@@ -8,7 +8,11 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>pdubey479@gmail.com</span>
+        <span>  <a className="App-link"
+          href="mailto:pdubey479@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >pdubey479@gmail.com</a></span>
         <div className="f-icons">
         <a className="App-link"
           href="https://github.com/Parag479"
