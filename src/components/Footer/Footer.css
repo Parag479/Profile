@@ -24,6 +24,9 @@ span a {
   color: #FFF;
   text-decoration: none;
 }
+span img {
+  width: 50px;
+}
 
 @media screen and (max-width: 480px){
   .f-content{
