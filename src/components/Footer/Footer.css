@@ -20,6 +20,10 @@
   display: flex;
   gap: 2rem;
 }
+span a {
+  color: #FFF;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 480px){
   .f-content{
