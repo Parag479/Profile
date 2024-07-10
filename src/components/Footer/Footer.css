@@ -25,7 +25,12 @@ span a {
   text-decoration: none;
 }
 span img {
+  
   width: 50px;
+  display: inline-block; /* Ensures the image is on the same line as the text */
+  vertical-align: middle; /* Aligns the image vertically with the middle of the text */
+  margin-left: 5px; /* Adds space between the link and the image */
+
 }
 
 @media screen and (max-width: 480px){
