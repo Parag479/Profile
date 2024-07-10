@@ -12,7 +12,7 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  margin-top: 4rem;
+  margin-top: 1rem;
   gap: 4rem;
   color: white;
 }
@@ -25,12 +25,11 @@ span a {
   text-decoration: none;
 }
 span img {
-  
-  width: 50px;
-  display: inline-block; /* Ensures the image is on the same line as the text */
-  vertical-align: middle; /* Aligns the image vertically with the middle of the text */
-  margin-left: 5px; /* Adds space between the link and the image */
-
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  width: 40px;
+  padding-right: 4px;
 }
 
 @media screen and (max-width: 480px){
