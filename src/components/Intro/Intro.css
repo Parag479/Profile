@@ -82,7 +82,7 @@
     left: calc(10% - 100px); 
    }
   100% {
-    left: calc(10% - 100px); 
+    left: 0;     
   }
 }
 
