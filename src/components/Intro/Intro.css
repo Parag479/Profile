@@ -79,10 +79,10 @@
     left: 0;
   }
   50% { 
-    left: calc(50% - 100px); 
+    left: calc(10% - 100px); 
    }
   100% {
-    left: 0;     
+    left: calc(10% - 100px); 
   }
 }
 
