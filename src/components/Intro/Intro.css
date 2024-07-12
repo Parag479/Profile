@@ -80,7 +80,7 @@
     left: 0;
   }
   50% {
-    left: calc(50% - 50px); /* Adjusted to create a shorter movement */
+    left: 10px; /* Small move to the right */
   }
   100% {
     left: 0;
