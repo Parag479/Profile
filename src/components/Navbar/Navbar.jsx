@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
@@ -11,7 +11,11 @@ const handleDownload = () => {
   link.click();
 };
 
-const navbar = () => {
+const Navbar = () => {
+  useEffect(() => {
+    handleDownload();
+  }, []);
+
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
@@ -30,7 +34,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Serivces
+                Services
               </Link>
             </li>
             <li>
@@ -40,7 +44,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="portfolio" spy={true} smooth={true}>
-                Protfolio
+                Portfolio
               </Link>
             </li>
             {/* <li>
@@ -61,4 +65,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
