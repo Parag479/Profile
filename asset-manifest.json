@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Profile/static/css/main.e23378ae.css",
-    "main.js": "/Profile/static/js/main.a22ad4fa.js",
+    "main.js": "/Profile/static/js/main.cc12daef.js",
+    "static/media/Parag_Dubey_Frontend_Resume (1).pdf": "/Profile/static/media/Parag_Dubey_Frontend_Resume (1).e9af17ddef3fb1b8fc5d.pdf",
     "static/media/boy.png": "/Profile/static/media/boy.5ca4b670a32b71681d2c.png",
-    "static/media/Parag_UI_UX.pdf": "/Profile/static/media/Parag_UI_UX.c080b44da1519dd22ecf.pdf",
     "static/media/glassesimoji.png": "/Profile/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/thumbup.png": "/Profile/static/media/thumbup.e06790ba656f0397cbe5.png",
     "static/media/gmail.png": "/Profile/static/media/gmail.4c62c57aecd810375ba2.png",
@@ -16,10 +16,10 @@
     "static/media/tender.png": "/Profile/static/media/tender.5a11880f7dd93e2246b6.png",
     "index.html": "/Profile/index.html",
     "main.e23378ae.css.map": "/Profile/static/css/main.e23378ae.css.map",
-    "main.a22ad4fa.js.map": "/Profile/static/js/main.a22ad4fa.js.map"
+    "main.cc12daef.js.map": "/Profile/static/js/main.cc12daef.js.map"
   },
   "entrypoints": [
     "static/css/main.e23378ae.css",
-    "static/js/main.a22ad4fa.js"
+    "static/js/main.cc12daef.js"
   ]
 }
