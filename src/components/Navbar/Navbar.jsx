@@ -2,12 +2,12 @@ import React from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import Resume from './Parag_UI_UX.pdf';
+import Resume from './Parag_Dubey_Frontend_Resume (1).pdf';
 
 const handleDownload = () => {
   const link = document.createElement('a');
   link.href = Resume;
-  link.download = 'Parag_UI_UX.pdf';
+  link.download = 'Parag_Dubey_Frontend_Resume (1).pdf';
   link.click();
 };
 
