@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.39f7f39e.css",
+    "main.css": "/Profile/static/css/main.8d074211.css",
     "main.js": "/Profile/static/js/main.f73361d0.js",
     "static/media/Parag_Dubey_Frontend_Resume (1).pdf": "/Profile/static/media/Parag_Dubey_Frontend_Resume (1).e9af17ddef3fb1b8fc5d.pdf",
     "static/media/boy.png": "/Profile/static/media/boy.5ca4b670a32b71681d2c.png",
@@ -15,11 +15,11 @@
     "static/media/glasses.png": "/Profile/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "static/media/tender.png": "/Profile/static/media/tender.5a11880f7dd93e2246b6.png",
     "index.html": "/Profile/index.html",
-    "main.39f7f39e.css.map": "/Profile/static/css/main.39f7f39e.css.map",
+    "main.8d074211.css.map": "/Profile/static/css/main.8d074211.css.map",
     "main.f73361d0.js.map": "/Profile/static/js/main.f73361d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.39f7f39e.css",
+    "static/css/main.8d074211.css",
     "static/js/main.f73361d0.js"
   ]
 }
