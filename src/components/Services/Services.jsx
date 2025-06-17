@@ -27,7 +27,7 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-        As a seasoned UI/UX Designer, I specialize in creating engaging and user-friendly digital experiences.           <br />
+        As a seasoned UI/UX Designer, I specialize in creating engaging and user-friendly digital experiences. <br />
 
         </spane>
         <a href={Resume} download>
