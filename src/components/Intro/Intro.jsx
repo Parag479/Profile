@@ -27,11 +27,12 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hello! I Am</span>
           <span>Parag Dubey</span>
           <span>
-          With a high level of experience in web designing and development, I am dedicated to producing quality work. My portfolio showcases a range of projects that demonstrate my ability to create visually appealing and highly functional websites. Explore my portfolio to see examples of my work and the diverse skill set I bring to every project.
-          </span>
+Frontend Developer & UI / UX Designer
+
+6+ yrs crafting fast, beautiful websites & App with React.js & Figma. Delivered 30% faster load times, 20% more engagement for clients. Let's build something great!          </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
