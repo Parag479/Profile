@@ -5,7 +5,7 @@ import SwiperCore, { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react"
 
 import "swiper/css";
-import Farmitra from "../../img/Farmitra.png";
+import Farmitra from "../../img/farmitra.png";
 import Gaurs from "../../img/logo-black.png";
 import Tender from "../../img/tender.png";
 import gratex from "../../img/gratex.jpg";
