@@ -348,6 +348,18 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .carousel-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "track track"
+      "prev next"
+      "dots dots"
+      "legal legal";
+    row-gap: 16px;
+    align-items: center;
+  }
+
   .work-section {
     padding: 50px 0;
   }
@@ -367,6 +379,10 @@
   }
 
   .carousel-number {
+    width: 100%;
+  }
+
+  .carousel-details {
     width: 100%;
   }
 
@@ -400,11 +416,12 @@
   }
 
   .carousel-track-container {
-    padding-top: 20px;
+    grid-area: track;
+    padding-top: 0;
   }
 
   .carousel-arrow {
-    top: 18px;
+    position: static;
     transform: none;
     width: 36px;
     height: 36px;
@@ -412,32 +429,44 @@
   }
 
   .carousel-arrow-left {
-    left: auto;
-    right: 54px;
+    grid-area: prev;
+    justify-self: start;
   }
 
   .carousel-arrow-right {
-    right: 10px;
+    grid-area: next;
+    justify-self: end;
+  }
+
+  .carousel-dots {
+    grid-area: dots;
+    margin-top: 0;
+  }
+
+  .carousel-image-wrapper,
+  .work-image,
+  .work-image-in {
+    width: 100%;
   }
 
   .work-image img {
+    display: block;
     width: 100%;
     max-width: 100%;
-    max-height: 250px;
-    object-fit: cover;
+    max-height: none;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.03);
   }
 
   .portfolio-legal-note {
+    grid-area: legal;
     margin-top: 18px;
     font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .carousel-track-container {
-    padding-top: 16px;
-  }
-
   .carousel-slide {
     padding: 24px 0;
   }
