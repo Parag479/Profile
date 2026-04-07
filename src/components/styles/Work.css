@@ -59,6 +59,7 @@
   display: flex;
   gap: 30px;
   align-items: flex-start;
+  min-width: 0;
 }
 
 .carousel-number h3 {
@@ -73,12 +74,15 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
 }
 
 .carousel-details h4 {
   font-size: 28px;
   font-weight: 500;
   margin: 0;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .carousel-category {
@@ -105,6 +109,8 @@
   color: #adacac;
   margin: 6px 0 0;
   font-size: 15px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
 }
 
 .carousel-actions {
@@ -319,6 +325,7 @@
 
   .carousel-info {
     width: 100%;
+    gap: 20px;
   }
 
   .carousel-image-wrapper {
@@ -354,24 +361,103 @@
     font-size: 35px;
   }
 
+  .carousel-info {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .carousel-number {
+    width: 100%;
+  }
+
   .carousel-details h4 {
     font-size: 20px;
   }
 
   .carousel-content {
     gap: 20px;
+    align-items: stretch;
   }
 
   .carousel-slide {
     padding: 30px 0;
   }
 
+  .carousel-tools {
+    margin-top: 12px;
+  }
+
+  .carousel-actions {
+    margin-top: 18px;
+  }
+
+  .project-link-button,
+  .project-link-button-disabled {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .carousel-track-container {
+    padding-top: 20px;
+  }
+
+  .carousel-arrow {
+    top: 18px;
+    transform: none;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .carousel-arrow-left {
+    left: auto;
+    right: 54px;
+  }
+
+  .carousel-arrow-right {
+    right: 10px;
+  }
+
   .work-image img {
+    width: 100%;
+    max-width: 100%;
     max-height: 250px;
+    object-fit: cover;
   }
 
   .portfolio-legal-note {
     margin-top: 18px;
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-track-container {
+    padding-top: 16px;
+  }
+
+  .carousel-slide {
+    padding: 24px 0;
+  }
+
+  .carousel-number h3 {
+    font-size: 28px;
+  }
+
+  .carousel-details h4 {
+    font-size: 18px;
+  }
+
+  .carousel-category,
+  .carousel-tools p {
+    font-size: 14px;
+  }
+
+  .project-link-button,
+  .project-link-button-disabled {
+    padding: 12px 14px;
+    font-size: 14px;
   }
 }
