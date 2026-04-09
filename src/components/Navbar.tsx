@@ -70,6 +70,15 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            <a
+              data-href="#certificates"
+              href="#certificates"
+              onClick={handleNavClick}
+            >
+              <HoverLinks text="CERTIFICATES" />
+            </a>
+          </li>
+          <li>
             <a data-href="#work" href="#work" onClick={handleNavClick}>
               <HoverLinks text="WORK" />
             </a>

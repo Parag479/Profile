@@ -10,7 +10,7 @@ const About = () => {
           scalable, high-performance web applications using React.js and Next.js.
           Strong expertise in SSR, SSG, and Performance Optimization. Delivered 40%
           reduction in TTFB, 35% SEO improvement, and consistent 90+ Lighthouse
-          scores. Immediate joiner; open to Mumbai, Hybrid, or Remote roles.
+          scores. Immediate joiner open to Mumbai, Hybrid, or Remote roles.
         </p>
       </div>
     </div>
