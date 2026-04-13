@@ -63,7 +63,7 @@ const projects: Project[] = [
     category: "Client Project",
     tools: "React, TypeScript, Styled Components",
     image: assetPath("/images/Ghar.webp"),
-    link: "",
+    link: "https://www.gharhotoaisa.com/",
   },
   {
     title: "Pioneer",
